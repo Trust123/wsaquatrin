@@ -87,9 +87,9 @@ _gaq.push(['_trackPageLoadTime']);
 			</div>
 			<div class="service-wrapper">
 			<p class="service-nav">
-				<a href=""><?php echo $Vote['Vote2']; ?></a> <!-- Spend Points -->
+				<a href="vote-store.php"><?php echo $Vote['Vote2']; ?></a> <!-- Spend Points -->
 				<a href="vote-history.php"><?php echo $Vote['Vote3']; ?></a>
-				<a href="#howitworks"><?php echo $Vote['Vote4']; ?></a> <!-- How it works -->
+				<a href="vote-howitworks.php"><?php echo $Vote['Vote4']; ?></a> <!-- How it works -->
 				<a href="vote.php" class="active"><?php echo $Vote['Vote5']; ?></a>
 			</p>
             <p><?php echo $Vote['Vote6']; ?><?php echo $website['title']; ?><?php echo $Vote2['Vote6']; ?></p><br />
@@ -257,15 +257,6 @@ _gaq.push(['_trackPageLoadTime']);
 				
 				?>
 					<br><br><br>
-					<div class="subsection">
-						<div class="middle">?</div>
-						<div class="right">
-							<h2 class="caption" id="howitworks"><a href="#"><?php echo $Vote['Vote4']; ?></a></h2>
-							<p><?php echo $Vote['Vote30']; ?></p>
-							<P><?php echo $Vote['Vote31']; ?></p>
-							<p><?php echo $Vote['Vote32']; ?></p>
-						</div>
-					</div>
 				<div class="raf-step3-arrow"></div>
 				<div class="raf-step5-arrow"></div>
 			</div>
